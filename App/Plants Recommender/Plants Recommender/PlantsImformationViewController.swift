@@ -12,6 +12,7 @@ import DDSpiderChart
 class PlantsImformationViewController: UIViewController {
 
     @IBOutlet weak var plantName: UILabel!
+    @IBOutlet weak var plantNameEng: UILabel!
     @IBOutlet weak var plantImage: UIImageView!
     @IBOutlet weak var plantType: UILabel!
     @IBOutlet weak var plantDifficulty: UILabel!
@@ -35,6 +36,7 @@ class PlantsImformationViewController: UIViewController {
 //            self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor(red: 89/256, green: 150/256, blue: 96/256, alpha: 1)]
 //            self.navigationController?.navigationBar.tintColor = UIColor(red: 89/256, green: 150/256, blue: 96/256, alpha: 1)
             plantName.text = ""
+            plantNameEng.text = ""
             plantImage.image = nil
             plantType.text = ""
             plantRecommendPlace.text = ""
@@ -63,7 +65,8 @@ class PlantsImformationViewController: UIViewController {
             let fullNameArr : [String] = cellPlant.components(separatedBy: "\n")
             let imageName = fullNameArr[0]
             print(imageName)
-            plantName.text = cellPlant
+            plantName.text = fullNameArr[0]
+            plantNameEng.text = fullNameArr[1]
             
             plantImage.image = UIImage(named: imageName)
             for i in myPlants {
