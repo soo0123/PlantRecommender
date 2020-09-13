@@ -67,25 +67,25 @@ class PlantsViewController: UIViewController {
     
     @IBAction func addPlant(_ sender: UIButton) {
         
-        if resultPlace == "거실(Living Room)" {
+        if resultPlace == "베란다(Patio)" {
             RoomArray[0].add(resultPlant)
             if isEmpty[0] {
                 isEmpty[0] = false
             }
         }
-        else if resultPlace == "베란다(Patio)" {
+        else if resultPlace == "거실(Living Room)" {
             RoomArray[1].add(resultPlant)
             if isEmpty[1] {
                 isEmpty[1] = false
             }
         }
-        else if resultPlace == "침실(Bedroom)" {
+        else if resultPlace == "서재(Library)" {
             RoomArray[2].add(resultPlant)
             if isEmpty[2] {
                 isEmpty[2] = false
             }
         }
-        else if resultPlace == "서재(Library)" {
+        else if resultPlace == "침실(Bedroom)" {
             RoomArray[3].add(resultPlant)
             if isEmpty[3] {
                 isEmpty[3] = false

@@ -248,7 +248,7 @@ class TestViewController: UIViewController {
                     }
                 }
             }
-            resultPlace = "베란다"
+            resultPlace = "베란다(Patio)"
         }
         else if place == "거실" {
             if size == "3평 이하" {
@@ -391,7 +391,7 @@ class TestViewController: UIViewController {
                     }
                 }
             }
-            resultPlace = "거실"
+            resultPlace = "거실(Living Room)"
         }
         else if place == "침실" {
             if size == "3평 이하" {
@@ -534,7 +534,7 @@ class TestViewController: UIViewController {
                     }
                 }
             }
-            resultPlace = "침실"
+            resultPlace = "침실(Bedroom)"
         }
         else if place == "서재" {
             if size == "3평 이하" {
@@ -677,7 +677,7 @@ class TestViewController: UIViewController {
                     }
                 }
             }
-            resultPlace = "서재"
+            resultPlace = "서재(Library)"
         }
         else if place == "부엌" {
             if size == "3평 이하" {
@@ -820,7 +820,7 @@ class TestViewController: UIViewController {
                     }
                 }
             }
-            resultPlace = "부엌"
+            resultPlace = "부엌(Kitchen)"
         }
     }
 

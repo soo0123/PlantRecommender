@@ -94,7 +94,6 @@ class MyPlantsTableViewController: UITableViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-                
         // Uncomment the following line to preserve selection between presentations
         self.clearsSelectionOnViewWillAppear = false
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
@@ -126,19 +125,19 @@ class MyPlantsTableViewController: UITableViewController{
         var sectionTitle : String = ""
         
         if section == 0 {
-            sectionTitle =  "베란다"
+            sectionTitle =  "베란다(Patio)"
         }
         else if section == 1 {
-            sectionTitle =  "거실"
+            sectionTitle =  "거실(Living Room)"
         }
         else if section == 2 {
-            sectionTitle =  "서재(공부방)"
+            sectionTitle =  "서재(Library)"
         }
         else if section == 3 {
-            sectionTitle =  "침실"
+            sectionTitle =  "침실(Bedroom)"
         }
         else if section == 4 {
-            sectionTitle =  "부엌"
+            sectionTitle =  "부엌(Kitchen)"
         }
         return sectionTitle
     }
