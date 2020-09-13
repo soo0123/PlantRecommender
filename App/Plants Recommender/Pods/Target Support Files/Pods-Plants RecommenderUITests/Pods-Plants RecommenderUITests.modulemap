@@ -1,0 +1,6 @@
+framework module Pods_Plants_RecommenderUITests {
+  umbrella header "Pods-Plants RecommenderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
