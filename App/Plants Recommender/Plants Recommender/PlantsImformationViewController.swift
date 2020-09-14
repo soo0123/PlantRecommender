@@ -72,18 +72,18 @@ class PlantsImformationViewController: UIViewController {
             for i in myPlants {
                 if i.0 as String == cellPlant {
                     plantType.text = i.3 as String
-                    plantDifficulty.text = "Difficulty : " + (i.2 as String)
+                    plantDifficulty.text = "\u{2022} Difficulty : " + (i.2 as String)
                     if i.4 as String == "" {
                         plantRecommendPlace.text = ""
                     }
                     else {
-                        plantRecommendPlace.text = "Best Place : " +  (i.4 as String)
+                        plantRecommendPlace.text = "\u{2022} Best Place : " +  (i.4 as String)
                     }
                     if i.5 as String == ""{
-                        plantCaution.text = "Caution: None"
+                        plantCaution.text = "\u{2022} Caution: None"
                     }
                     else {
-                        plantCaution.text = "Caution: " + (i.5 as String)
+                        plantCaution.text = "\u{2022} Caution: " + (i.5 as String)
                     }
                     spiderChart.axes = ["Formaldehyde 정화능력", "VOCs 제거능력", "CO2 & CO 제거능력", "음이온 발생능력", "가습 능력"]
                     spiderChart.addDataSet(values: [(i.1)[0] / 5, (i.1)[1] / 5, (i.1)[2] / 5, (i.1)[3] / 5, (i.1)[4] / 5], color: UIColor(red: 89/256, green: 150/256, blue: 96/256, alpha: 1))

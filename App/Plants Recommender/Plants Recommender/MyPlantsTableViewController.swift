@@ -153,7 +153,10 @@ class MyPlantsTableViewController: UITableViewController{
         tableView.sectionHeaderHeight = CGFloat(28)
         
         if isEmpty[indexPath.section] {
-            cell.cellPlantName.text = "식물을 추가하세요"
+            cell.cellPlantName.text = "식물 추가 (Add New)"
+            cell.cellPlantName.textColor = UIColor.lightGray
+            cell.cellPlantName.font = cell.cellPlantName.font.withSize(15)
+            
             //cell.cellPlantImage.image = nil
         }
         else {
