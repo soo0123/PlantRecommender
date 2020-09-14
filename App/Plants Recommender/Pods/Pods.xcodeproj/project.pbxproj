@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1C5EFBAACA9B35FAFF299F90A4D4FB6B /* Pods-Plants RecommenderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB06F56796DAC925CC38BB810B938BE5 /* Pods-Plants RecommenderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23E48A6BDD73CF1A4FC5460D365ACBEC /* DDSpiderChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA65C9B75A4CA1E0C180E3544E607CD /* DDSpiderChartView.swift */; };
+		23E48A6BDD73CF1A4FC5460D365ACBEC /* DDSpiderChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C088DEB0A3DB16B1E23FC14E8A586CA /* DDSpiderChartView.swift */; };
 		34C5BE749FFF1B27659F6D2E3E9DD0B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		38E1773DD8ACA831400AFDD0E7577CCC /* Pods-Plants RecommenderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85796F4EF917D24EAEFC6561A3CB337E /* Pods-Plants RecommenderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		453305583EF22287D49F54562F24C6F6 /* DDSpiderChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08549D395CFBE538A3239CD523F582 /* DDSpiderChart-dummy.m */; };
-		4EE3515AC1FE2A212FAE5CFF04E37365 /* DrawableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678FD038B9AA318E47FFCF4D409D775F /* DrawableString.swift */; };
+		453305583EF22287D49F54562F24C6F6 /* DDSpiderChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FE417DFBB252C5EA7760E079880F8 /* DDSpiderChart-dummy.m */; };
+		4EE3515AC1FE2A212FAE5CFF04E37365 /* DrawableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6422ADA181D343A26388439CF59937 /* DrawableString.swift */; };
 		58058DD94D09F5698E4E161F4D0EEE61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7BB052652F33BAC5892BA54A8F0C962E /* Pods-Plants Recommender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2865798984650B045681B843370AE4 /* Pods-Plants Recommender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A26AB83B30348F7A4D8F3CCCE4B7567D /* DDSpiderChartDataSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9284F1BB19663F3B99089A37A88EE38 /* DDSpiderChartDataSetView.swift */; };
+		A26AB83B30348F7A4D8F3CCCE4B7567D /* DDSpiderChartDataSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF717B15565A142B9BF944CE9CCFA2 /* DDSpiderChartDataSetView.swift */; };
 		D0410F6C0A6CD9457A044F11F883484B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D67A64EE33F864E7BD8C53E34BA75A3A /* Pods-Plants RecommenderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E8256735F406C9053E041FAC14AED2 /* Pods-Plants RecommenderTests-dummy.m */; };
 		D6B0CCD56F2265FAC0A5DF220A027243 /* Pods-Plants Recommender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B0A3FB4CABDD195048694EB9E5B671 /* Pods-Plants Recommender-dummy.m */; };
-		DDFA6480A4B70062F50A4B74EFB96738 /* DDSpiderChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F31D592280134BD40D7028A447A1DB /* DDSpiderChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDFA6480A4B70062F50A4B74EFB96738 /* DDSpiderChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB10D1073B1EC4E468D174EAEB4CDF60 /* DDSpiderChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E790F80DECC8EB1E12EC19DDABF3D49A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E8AFE81E11E42A4A698D4773190BC9FC /* Pods-Plants RecommenderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B8B2CE52B01458031AAAE44144FCF6 /* Pods-Plants RecommenderUITests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -53,40 +53,41 @@
 		025E3047ACB87AF2EC7160B0CF35F591 /* Pods-Plants RecommenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Plants RecommenderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0B04614CCD9EC94C934B692C942A324C /* Pods-Plants Recommender-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Plants Recommender-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0C7E3C4584C70C8DBAC46E09D34E4993 /* Pods-Plants Recommender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Plants Recommender.debug.xcconfig"; sourceTree = "<group>"; };
-		0F181AF0D3BB2A6966199EE5363E0179 /* DDSpiderChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDSpiderChart.modulemap; sourceTree = "<group>"; };
+		0D6422ADA181D343A26388439CF59937 /* DrawableString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawableString.swift; path = DDSpiderChart/Classes/DrawableString.swift; sourceTree = "<group>"; };
 		0FCB40BC840E8338DB89843AA6C07FB0 /* Pods-Plants RecommenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Plants RecommenderTests.release.xcconfig"; sourceTree = "<group>"; };
+		22A4C969E0157C116224F0A5667A8F9E /* DDSpiderChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDSpiderChart-prefix.pch"; sourceTree = "<group>"; };
 		2AFDFD054D0E064A32968F9F3B6DA3E4 /* Pods-Plants RecommenderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Plants RecommenderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2B08549D395CFBE538A3239CD523F582 /* DDSpiderChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDSpiderChart-dummy.m"; sourceTree = "<group>"; };
+		2C9B69AAA5F0DD8266C1187515A0D08A /* DDSpiderChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDSpiderChart.release.xcconfig; sourceTree = "<group>"; };
 		2E40E5D069ECF0D01944CD0672FFAD17 /* Pods-Plants RecommenderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Plants RecommenderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F7FE417DFBB252C5EA7760E079880F8 /* DDSpiderChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDSpiderChart-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35E51C62207F6C71269C20802A56A92F /* DDSpiderChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDSpiderChart.modulemap; sourceTree = "<group>"; };
 		37C88557529BC73FBBA76B663D017C39 /* Pods-Plants RecommenderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Plants RecommenderTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		47B0FB01CC1E01195DB76B5FD0A22C3D /* Pods_Plants_RecommenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plants_RecommenderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48C25A9984923BB9EC1CAF0A72AB9887 /* Pods_Plants_Recommender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plants_Recommender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C088DEB0A3DB16B1E23FC14E8A586CA /* DDSpiderChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDSpiderChartView.swift; path = DDSpiderChart/Classes/DDSpiderChartView.swift; sourceTree = "<group>"; };
+		47B0FB01CC1E01195DB76B5FD0A22C3D /* Pods_Plants_RecommenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Plants_RecommenderUITests.framework; path = "Pods-Plants RecommenderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C25A9984923BB9EC1CAF0A72AB9887 /* Pods_Plants_Recommender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Plants_Recommender.framework; path = "Pods-Plants Recommender.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF4CEB73D413EB0826A988908468189 /* Pods-Plants Recommender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Plants Recommender.modulemap"; sourceTree = "<group>"; };
-		54E3A4743B63ED54D377217A5A65A57E /* DDSpiderChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDSpiderChart-prefix.pch"; sourceTree = "<group>"; };
-		59F31D592280134BD40D7028A447A1DB /* DDSpiderChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDSpiderChart-umbrella.h"; sourceTree = "<group>"; };
 		5C2865798984650B045681B843370AE4 /* Pods-Plants Recommender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Plants Recommender-umbrella.h"; sourceTree = "<group>"; };
-		5EA65C9B75A4CA1E0C180E3544E607CD /* DDSpiderChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDSpiderChartView.swift; path = DDSpiderChart/Classes/DDSpiderChartView.swift; sourceTree = "<group>"; };
-		678FD038B9AA318E47FFCF4D409D775F /* DrawableString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawableString.swift; path = DDSpiderChart/Classes/DrawableString.swift; sourceTree = "<group>"; };
+		60968BDADAA94E54A2308F655F4CAF82 /* DDSpiderChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDSpiderChart-Info.plist"; sourceTree = "<group>"; };
 		68B0A3FB4CABDD195048694EB9E5B671 /* Pods-Plants Recommender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Plants Recommender-dummy.m"; sourceTree = "<group>"; };
 		68CDFDD8CB8E847863BE37D721BF5228 /* Pods-Plants RecommenderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Plants RecommenderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		726FD0FF092EE0665286D63B36CE94B9 /* Pods-Plants Recommender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Plants Recommender.release.xcconfig"; sourceTree = "<group>"; };
 		7783FCB4156197B6EEE104A8EEC73E50 /* Pods-Plants RecommenderTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Plants RecommenderTests-Info.plist"; sourceTree = "<group>"; };
 		7A99C0F45C1F8F43B4322A845FF1CB9B /* Pods-Plants Recommender-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Plants Recommender-Info.plist"; sourceTree = "<group>"; };
-		7BDCF4914220A68175FE54FD818B1D15 /* DDSpiderChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDSpiderChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDCF4914220A68175FE54FD818B1D15 /* DDSpiderChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDSpiderChart.framework; path = DDSpiderChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A8A0EB14D39A3D05334D1E64B8B63C /* Pods-Plants RecommenderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Plants RecommenderUITests.modulemap"; sourceTree = "<group>"; };
 		85796F4EF917D24EAEFC6561A3CB337E /* Pods-Plants RecommenderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Plants RecommenderUITests-umbrella.h"; sourceTree = "<group>"; };
 		8C05484867939872C4CF2A2F5CEE50FF /* Pods-Plants RecommenderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Plants RecommenderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8E7AD56500D8179D2DD178072C6EE631 /* DDSpiderChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDSpiderChart-Info.plist"; sourceTree = "<group>"; };
 		9372044B5251367DE35570C0EDD53D78 /* Pods-Plants RecommenderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Plants RecommenderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		99E8256735F406C9053E041FAC14AED2 /* Pods-Plants RecommenderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Plants RecommenderTests-dummy.m"; sourceTree = "<group>"; };
-		9ADB91D4939A91B81B5930903C130FED /* Pods_Plants_RecommenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plants_RecommenderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADB91D4939A91B81B5930903C130FED /* Pods_Plants_RecommenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Plants_RecommenderTests.framework; path = "Pods-Plants RecommenderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D54FFF38F5A89014C5157E579B05811 /* Pods-Plants Recommender-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Plants Recommender-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB098D0E091685AA9E23A62A51C58644 /* Pods-Plants Recommender-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Plants Recommender-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB10D1073B1EC4E468D174EAEB4CDF60 /* DDSpiderChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDSpiderChart-umbrella.h"; sourceTree = "<group>"; };
+		BDFF717B15565A142B9BF944CE9CCFA2 /* DDSpiderChartDataSetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDSpiderChartDataSetView.swift; path = DDSpiderChart/Classes/DDSpiderChartDataSetView.swift; sourceTree = "<group>"; };
+		BEC6A0AC183A4FE470EAB47A2E5AB6B0 /* DDSpiderChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDSpiderChart.debug.xcconfig; sourceTree = "<group>"; };
 		C609A156BF62CB53D55E4924E15499A2 /* Pods-Plants RecommenderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Plants RecommenderTests.modulemap"; sourceTree = "<group>"; };
-		C9284F1BB19663F3B99089A37A88EE38 /* DDSpiderChartDataSetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDSpiderChartDataSetView.swift; path = DDSpiderChart/Classes/DDSpiderChartDataSetView.swift; sourceTree = "<group>"; };
-		D2629001BF6254395FA14FD2E7F47D3B /* DDSpiderChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDSpiderChart.xcconfig; sourceTree = "<group>"; };
 		DB06F56796DAC925CC38BB810B938BE5 /* Pods-Plants RecommenderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Plants RecommenderTests-umbrella.h"; sourceTree = "<group>"; };
 		E9B8B2CE52B01458031AAAE44144FCF6 /* Pods-Plants RecommenderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Plants RecommenderUITests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,35 +170,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		64E5E802E199CD5D6A61974D8BA6CCF6 /* Support Files */ = {
+		5590FEC3FE4847AFAEAEA0A60DFFEF79 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F181AF0D3BB2A6966199EE5363E0179 /* DDSpiderChart.modulemap */,
-				D2629001BF6254395FA14FD2E7F47D3B /* DDSpiderChart.xcconfig */,
-				2B08549D395CFBE538A3239CD523F582 /* DDSpiderChart-dummy.m */,
-				8E7AD56500D8179D2DD178072C6EE631 /* DDSpiderChart-Info.plist */,
-				54E3A4743B63ED54D377217A5A65A57E /* DDSpiderChart-prefix.pch */,
-				59F31D592280134BD40D7028A447A1DB /* DDSpiderChart-umbrella.h */,
+				35E51C62207F6C71269C20802A56A92F /* DDSpiderChart.modulemap */,
+				2F7FE417DFBB252C5EA7760E079880F8 /* DDSpiderChart-dummy.m */,
+				60968BDADAA94E54A2308F655F4CAF82 /* DDSpiderChart-Info.plist */,
+				22A4C969E0157C116224F0A5667A8F9E /* DDSpiderChart-prefix.pch */,
+				BB10D1073B1EC4E468D174EAEB4CDF60 /* DDSpiderChart-umbrella.h */,
+				BEC6A0AC183A4FE470EAB47A2E5AB6B0 /* DDSpiderChart.debug.xcconfig */,
+				2C9B69AAA5F0DD8266C1187515A0D08A /* DDSpiderChart.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DDSpiderChart";
 			sourceTree = "<group>";
 		};
-		7EFD8389D1A42FBED404821857899856 /* DDSpiderChart */ = {
+		94EE01E78FF4180E5652CC039FDF5309 /* DDSpiderChart */ = {
 			isa = PBXGroup;
 			children = (
-				C9284F1BB19663F3B99089A37A88EE38 /* DDSpiderChartDataSetView.swift */,
-				5EA65C9B75A4CA1E0C180E3544E607CD /* DDSpiderChartView.swift */,
-				678FD038B9AA318E47FFCF4D409D775F /* DrawableString.swift */,
-				64E5E802E199CD5D6A61974D8BA6CCF6 /* Support Files */,
+				BDFF717B15565A142B9BF944CE9CCFA2 /* DDSpiderChartDataSetView.swift */,
+				3C088DEB0A3DB16B1E23FC14E8A586CA /* DDSpiderChartView.swift */,
+				0D6422ADA181D343A26388439CF59937 /* DrawableString.swift */,
+				5590FEC3FE4847AFAEAEA0A60DFFEF79 /* Support Files */,
 			);
+			name = DDSpiderChart;
 			path = DDSpiderChart;
 			sourceTree = "<group>";
 		};
 		A7285BB468267765006DFC2834589543 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7EFD8389D1A42FBED404821857899856 /* DDSpiderChart */,
+				94EE01E78FF4180E5652CC039FDF5309 /* DDSpiderChart */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = C38BF95BB468C11B9230C84C361FE3DC /* Products */;
@@ -490,42 +494,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07FD2D015A7B677BA3D0A4CF98799A98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2629001BF6254395FA14FD2E7F47D3B /* DDSpiderChart.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9LNMB52X2Z;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DDSpiderChart/DDSpiderChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DDSpiderChart/DDSpiderChart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DDSpiderChart/DDSpiderChart.modulemap";
-				PRODUCT_MODULE_NAME = DDSpiderChart;
-				PRODUCT_NAME = DDSpiderChart;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -727,6 +695,41 @@
 			};
 			name = Release;
 		};
+		718F8D529E939FBA57B48C08A2F05543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC6A0AC183A4FE470EAB47A2E5AB6B0 /* DDSpiderChart.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDSpiderChart/DDSpiderChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDSpiderChart/DDSpiderChart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DDSpiderChart/DDSpiderChart.modulemap";
+				PRODUCT_MODULE_NAME = DDSpiderChart;
+				PRODUCT_NAME = DDSpiderChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		80DFA2565A1F9374D3DC0EB81CAF08E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C7E3C4584C70C8DBAC46E09D34E4993 /* Pods-Plants Recommender.debug.xcconfig */;
@@ -804,17 +807,16 @@
 			};
 			name = Release;
 		};
-		ABC6135BFA1BAD0E0024E77BA8A76F08 /* Release */ = {
+		BAA7371B1D9BED0AB9E2FF49E6442496 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2629001BF6254395FA14FD2E7F47D3B /* DDSpiderChart.xcconfig */;
+			baseConfigurationReference = 2C9B69AAA5F0DD8266C1187515A0D08A /* DDSpiderChart.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9LNMB52X2Z;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -942,8 +944,8 @@
 		814A81B2C686F981E57C6B0BCD0D276F /* Build configuration list for PBXNativeTarget "DDSpiderChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07FD2D015A7B677BA3D0A4CF98799A98 /* Debug */,
-				ABC6135BFA1BAD0E0024E77BA8A76F08 /* Release */,
+				718F8D529E939FBA57B48C08A2F05543 /* Debug */,
+				BAA7371B1D9BED0AB9E2FF49E6442496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

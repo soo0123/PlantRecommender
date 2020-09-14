@@ -22,6 +22,9 @@
 		69B374A2234313C700CBDECD /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B374A1234313C600CBDECD /* TestViewController.swift */; };
 		ADC2C5AED4F9ECBC6862008D /* Pods_Plants_Recommender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDEEE2066F3562ABA09E4E8 /* Pods_Plants_Recommender.framework */; };
 		B93F49C423B4A8BA00A11A70 /* PlantsImformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93F49C323B4A8BA00A11A70 /* PlantsImformationViewController.swift */; };
+		C546567A250EF07D0094139B /* Graphik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5465679250EF07D0094139B /* Graphik-Medium.ttf */; };
+		C546567B250EF07D0094139B /* Graphik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5465679250EF07D0094139B /* Graphik-Medium.ttf */; };
+		C546567C250EF07D0094139B /* Graphik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5465679250EF07D0094139B /* Graphik-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,7 @@
 		B93F49C323B4A8BA00A11A70 /* PlantsImformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsImformationViewController.swift; sourceTree = "<group>"; };
 		B97529A7DA4570AE0F62D9D9 /* Pods-Plants RecommenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plants RecommenderTests.release.xcconfig"; path = "Target Support Files/Pods-Plants RecommenderTests/Pods-Plants RecommenderTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC33CB2D704B9FF8CD2E11BD /* Pods-Plants_test1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plants_test1.release.xcconfig"; path = "Target Support Files/Pods-Plants_test1/Pods-Plants_test1.release.xcconfig"; sourceTree = "<group>"; };
+		C5465679250EF07D0094139B /* Graphik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Medium.ttf"; sourceTree = "<group>"; };
 		D345690C50D3623E22AF026D /* Pods_Plants_RecommenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plants_RecommenderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E937AE4637806D35D99B3E94 /* Pods-Plants_test1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plants_test1UITests.release.xcconfig"; path = "Target Support Files/Pods-Plants_test1UITests/Pods-Plants_test1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF2B3AD2B797017868B44D00 /* Pods-Plants RecommenderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plants RecommenderUITests.release.xcconfig"; path = "Target Support Files/Pods-Plants RecommenderUITests/Pods-Plants RecommenderUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 		690102B122D9996A00152F72 = {
 			isa = PBXGroup;
 			children = (
+				C5465679250EF07D0094139B /* Graphik-Medium.ttf */,
 				690102BC22D9996A00152F72 /* Plants Recommender */,
 				690102D122D9996C00152F72 /* Plants RecommenderTests */,
 				690102DC22D9996C00152F72 /* Plants RecommenderUITests */,
@@ -304,6 +309,7 @@
 			files = (
 				690102C822D9996C00152F72 /* LaunchScreen.storyboard in Resources */,
 				690102C522D9996C00152F72 /* Assets.xcassets in Resources */,
+				C546567A250EF07D0094139B /* Graphik-Medium.ttf in Resources */,
 				690102C322D9996A00152F72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C546567B250EF07D0094139B /* Graphik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C546567C250EF07D0094139B /* Graphik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

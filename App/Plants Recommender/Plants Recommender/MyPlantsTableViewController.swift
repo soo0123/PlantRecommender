@@ -145,13 +145,18 @@ class MyPlantsTableViewController: UITableViewController{
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Plants", for: indexPath) as! MyPlantsTableViewCell
         
+        cell.selectionStyle = .none
+        
         // Configure the cell...
         tableView.rowHeight = 80
         tableView.sectionFooterHeight = CGFloat(28)
         tableView.sectionHeaderHeight = CGFloat(28)
         
         if isEmpty[indexPath.section] {
-            cell.cellPlantName.text = "식물을 추가하세요"
+            cell.cellPlantName.text = "식물 추가 (Add New)"
+            cell.cellPlantName.textColor = UIColor.lightGray
+            cell.cellPlantName.font = cell.cellPlantName.font.withSize(15)
+            
             //cell.cellPlantImage.image = nil
         }
         else {

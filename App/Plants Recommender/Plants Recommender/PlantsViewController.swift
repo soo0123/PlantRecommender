@@ -12,6 +12,7 @@ class PlantsViewController: UIViewController {
     
     @IBOutlet weak var spiderChart: DDSpiderChartView!
     @IBOutlet weak var plantName: UILabel!
+    @IBOutlet weak var plantNameEng: UILabel!
     @IBOutlet weak var plantImage: UIImageView!
     @IBOutlet weak var plantType: UILabel!
     @IBOutlet weak var plantDifficulty: UILabel!
@@ -26,9 +27,10 @@ class PlantsViewController: UIViewController {
         self.navigationController?.navigationBar.tintColor = UIColor(red: 89/256, green: 150/256, blue: 96/256, alpha: 1)
         
 
-        plantName.text = resultPlant
         let fullNameArr : [String] = resultPlant.components(separatedBy: "\n")
         let imageName = fullNameArr[0]
+        plantName.text = fullNameArr[0]
+        plantNameEng.text = fullNameArr[1]
         plantImage.image = UIImage(named: imageName)
         plantRecommendPlace.numberOfLines = 0
         plantDifficulty.numberOfLines = 0
