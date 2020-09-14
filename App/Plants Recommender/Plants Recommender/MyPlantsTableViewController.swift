@@ -145,6 +145,8 @@ class MyPlantsTableViewController: UITableViewController{
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Plants", for: indexPath) as! MyPlantsTableViewCell
         
+        cell.selectionStyle = .none
+        
         // Configure the cell...
         tableView.rowHeight = 80
         tableView.sectionFooterHeight = CGFloat(28)

@@ -591,8 +591,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="591"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  공기정화 능력" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHR-ml-P0a">
-                                <rect key="frame" x="10" y="240.5" width="110" height="14"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  공기정화 능력 (Air Purification Ability)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHR-ml-P0a">
+                                <rect key="frame" x="10" y="238" width="299" height="16.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -618,32 +618,32 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DPM-uZ-QxN">
-                                <rect key="frame" x="9" y="37.5" width="155" height="187"/>
+                                <rect key="frame" x="9" y="35" width="155" height="187"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="187" id="AYL-Ye-6Rz"/>
                                     <constraint firstAttribute="width" constant="155" id="m4p-xS-i9Z"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFE-h6-Ajb">
-                                <rect key="frame" x="181" y="83.5" width="158" height="18"/>
+                                <rect key="frame" x="181" y="86" width="158" height="18"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended Place" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqh-zE-zpX">
-                                <rect key="frame" x="181" y="153.5" width="184.5" height="18"/>
+                                <rect key="frame" x="181" y="156" width="184.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plant Name" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHE-fk-DKi">
-                                <rect key="frame" x="181" y="58" width="174" height="18"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <color key="textColor" red="0.34901960780000002" green="0.58823529409999997" blue="0.37647058820000001" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plant Name Eng" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHE-fk-DKi">
+                                <rect key="frame" x="181" y="58" width="174" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="258" verticalHuggingPriority="251" text="Difficulty" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Kz-BX-tsx">
-                                <rect key="frame" x="181" y="118.5" width="174" height="18"/>
+                                <rect key="frame" x="181" y="121" width="174" height="18"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -655,9 +655,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Caution" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFO-TM-rHe">
-                                <rect key="frame" x="181" y="188.5" width="174" height="36"/>
+                                <rect key="frame" x="181" y="191" width="174" height="31"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plant Name Kor" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ort-UB-GZu">
+                                <rect key="frame" x="181" y="37" width="174" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -679,13 +686,13 @@
                             <constraint firstItem="C9a-8t-GXd" firstAttribute="trailing" secondItem="bqh-zE-zpX" secondAttribute="trailing" constant="9.5" id="P2d-gI-3c3"/>
                             <constraint firstItem="bqh-zE-zpX" firstAttribute="leading" secondItem="DPM-uZ-QxN" secondAttribute="trailing" constant="17" id="QBB-Da-mYp"/>
                             <constraint firstItem="jsf-Sl-ybN" firstAttribute="top" secondItem="RHR-ml-P0a" secondAttribute="bottom" constant="21.5" id="RCL-5M-doc"/>
-                            <constraint firstItem="DPM-uZ-QxN" firstAttribute="top" secondItem="mim-Zn-clZ" secondAttribute="bottom" constant="17.5" id="VD7-CW-Osa"/>
+                            <constraint firstItem="DPM-uZ-QxN" firstAttribute="top" secondItem="mim-Zn-clZ" secondAttribute="bottom" constant="15" id="VD7-CW-Osa"/>
                             <constraint firstItem="C9a-8t-GXd" firstAttribute="trailing" secondItem="BFE-h6-Ajb" secondAttribute="trailing" constant="36" id="Xph-7h-g9j"/>
                             <constraint firstItem="C9a-8t-GXd" firstAttribute="trailing" secondItem="mim-Zn-clZ" secondAttribute="trailing" constant="255" id="YtP-oR-o58"/>
                             <constraint firstItem="BFE-h6-Ajb" firstAttribute="top" secondItem="YHE-fk-DKi" secondAttribute="bottom" constant="7.5" id="cBn-h2-hE0"/>
                             <constraint firstItem="C9a-8t-GXd" firstAttribute="trailing" secondItem="6Kz-BX-tsx" secondAttribute="trailing" constant="20" id="dYA-TX-orM"/>
                             <constraint firstItem="6Kz-BX-tsx" firstAttribute="leading" secondItem="DPM-uZ-QxN" secondAttribute="trailing" constant="17" id="ej3-0c-sdz"/>
-                            <constraint firstItem="C9a-8t-GXd" firstAttribute="trailing" secondItem="RHR-ml-P0a" secondAttribute="trailing" constant="255" id="j8r-mD-nsW"/>
+                            <constraint firstItem="C9a-8t-GXd" firstAttribute="trailing" secondItem="RHR-ml-P0a" secondAttribute="trailing" constant="66" id="j8r-mD-nsW"/>
                             <constraint firstItem="C9a-8t-GXd" firstAttribute="trailing" secondItem="eFO-TM-rHe" secondAttribute="trailing" constant="20" id="uJM-1l-qu1"/>
                             <constraint firstItem="jsf-Sl-ybN" firstAttribute="leading" secondItem="C9a-8t-GXd" secondAttribute="leading" constant="37" id="vC5-rg-z11"/>
                             <constraint firstItem="C9a-8t-GXd" firstAttribute="bottom" secondItem="jsf-Sl-ybN" secondAttribute="bottom" constant="15" id="vZv-eM-mUL"/>
@@ -701,7 +708,8 @@
                         <outlet property="plantDifficulty" destination="6Kz-BX-tsx" id="VvQ-xl-acb"/>
                         <outlet property="plantImage" destination="DPM-uZ-QxN" id="Dqs-ba-JEK"/>
                         <outlet property="plantLabel" destination="mim-Zn-clZ" id="RhY-Iy-IVl"/>
-                        <outlet property="plantName" destination="YHE-fk-DKi" id="uwO-7n-Iak"/>
+                        <outlet property="plantName" destination="Ort-UB-GZu" id="IBm-MO-q7o"/>
+                        <outlet property="plantNameEng" destination="YHE-fk-DKi" id="mUT-3U-Zso"/>
                         <outlet property="plantRecommendPlace" destination="bqh-zE-zpX" id="rEb-MV-0ga"/>
                         <outlet property="plantType" destination="BFE-h6-Ajb" id="Nqj-Y2-zK6"/>
                         <outlet property="spiderChart" destination="jsf-Sl-ybN" id="76l-Pp-sQF"/>
